@@ -1,0 +1,49 @@
+.root {
+	-fx-alignment: TOP_CENTER
+}
+#back {
+	-fx-padding: 10;
+	-fx-border-style: solid;
+	-fx-border-width: 2px;
+	-fx-border-radius: 5px;
+	-fx-border-color: grey;
+	-fx-background-color: #F2F6F7;
+	-fx-background-radius: 5px;
+}
+
+#selected {
+	-fx-border-style: solid;
+	-fx-border-width: 2px;
+	-fx-border-radius: 1px;
+	-fx-border-color: red;	
+}
+
+Label {
+	-fx-font-family: "Comic Sans MS", cursive, sans-serif;
+	-fx-font-size: 16px;
+	-fx-padding: 10;
+}
+
+Button {
+	-fx-font-size: 14px;
+	-fx-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	-fx-padding: 10;
+}
+
+RadioButton {
+	-fx-font-size: 14px;
+	-fx-font-family: "Times New Roman", Times, serif
+}
+
+TextField {
+	-fx-pref-width: 30px;
+}
+
+Slider {
+	-fx-padding: 0 15 0 0;
+	-fx-font-size: 13px;
+	-fx-pref-width: 250px;
+}
+#slider_header {
+	-fx-pref-width: 150px;	
+}

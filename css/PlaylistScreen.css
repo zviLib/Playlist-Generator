@@ -1,0 +1,55 @@
+.root {
+	-fx-background-color: black;
+	-fx-font-family: Georgia, serif;
+}
+
+HBox {
+	-fx-border-style: solid;
+	-fx-border-width: 0 0 1 0 px;
+	-fx-border-color: #7F7F7F;
+	-fx-border-radius: 15px;
+	-fx-pref-height: 45px;
+	-fx-pref-width: 500px;
+} 
+
+Label {
+	-fx-text-fill: #ffffff;
+}
+
+#num_box {
+	-fx-pref-width: 100px;
+	-fx-alignment: CENTER;
+}
+
+#song_info {
+	-fx-pref-width: 300px;
+	-fx-alignment: CENTER_LEFT;
+}
+
+#dur_pane {
+	-fx-pref-width: 75px;
+	-fx-alignment: CENTER_RIGHT;
+}
+
+#header {
+	-fx-font-size: 26px;
+	-fx-font-weight: bold;
+	-fx-padding: 0 0 15 0;
+	-fx-font-family: "Arial Black", Gadget, sans-serif
+}
+
+#row_num, #duration {
+	-fx-padding: 0 0 0 0;
+	-fx-font-size: 16px;
+	-fx-alignment: CENTER;
+}
+
+#song_name {
+	-fx-font-weight: bold;
+	-fx-font-size: 16px;
+}
+
+#artist_name {
+	-fx-font-size: 13px;
+	-fx-padding: 0 0 5 0;
+}
